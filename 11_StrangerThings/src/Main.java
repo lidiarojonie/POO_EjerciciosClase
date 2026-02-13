@@ -68,7 +68,9 @@ public class Main{
 
         // Tarea 8
         System.out.println("\nTarea 8:");
-
+        Hopper h = new Hopper("Hopper", 42, 60, 90);
+        h.receiveDamage(60);
+        System.out.println("Alive=" + h.isAlive());
 
         // Tarea 9
         System.out.println("\nTarea 9:");

@@ -39,8 +39,4 @@ public class Steve extends CharacterBase{
     public void battleCry() {
         System.out.println("Harrington's got this.");
     }
-    @Override
-    public boolean isAlive() {
-        return false;
-    }
 }

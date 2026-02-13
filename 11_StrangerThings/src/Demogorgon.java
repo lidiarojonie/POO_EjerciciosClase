@@ -17,10 +17,6 @@ public class Demogorgon extends CharacterBase{
     public void battleCry() {
         System.out.println("*SCREEECH*");
     }
-    @Override
-    public boolean isAlive() {
-        return false;
-    }
 
     // Getter and setter
     public int getDientes() {

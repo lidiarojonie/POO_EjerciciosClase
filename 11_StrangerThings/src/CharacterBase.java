@@ -12,10 +12,19 @@ public abstract class CharacterBase implements Fighter {
     }
 
     // Metodos
+    @Override
     public void receiveDamage(int damage){
         int hpNow = getHp();
         hpNow -= damage;
         setHp(hpNow);
+    }
+    @Override
+    public boolean isAlive() {
+        if(getHp() > 0){
+            return true;
+        }else {
+            return false;
+        }
     }
 
     // Getter and setter

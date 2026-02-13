@@ -26,8 +26,5 @@ public class Hopper extends CharacterBase{
     public void battleCry() {
         System.out.println("Stay behind me.");
     }
-    @Override
-    public boolean isAlive() {
-        return false;
-    }
+
 }

@@ -39,8 +39,4 @@ public class Eleven extends CharacterBase{
     public void battleCry() {
         System.out.println("I can do it.");
     }
-    @Override
-    public boolean isAlive() {
-        return false;
-    }
 }
