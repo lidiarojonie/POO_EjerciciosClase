@@ -1,7 +1,5 @@
 import Interfaces.SpidermanActions;
 
-import java.util.Objects;
-
 public class Spiderman extends Superhero implements SpidermanActions {
     // ATRIBUTOS
     private String realName;

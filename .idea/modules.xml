@@ -2,17 +2,17 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/01_Lavadora/01_Lavadora.iml" filepath="$PROJECT_DIR$/01_Lavadora/01_Lavadora.iml" />
-      <module fileurl="file://$PROJECT_DIR$/02_Magdalena/02_Magdalena.iml" filepath="$PROJECT_DIR$/02_Magdalena/02_Magdalena.iml" />
-      <module fileurl="file://$PROJECT_DIR$/03_AlmacenMagdalenas/03_AlmacenMagdalenas.iml" filepath="$PROJECT_DIR$/03_AlmacenMagdalenas/03_AlmacenMagdalenas.iml" />
-      <module fileurl="file://$PROJECT_DIR$/04_Tren/04_Tren.iml" filepath="$PROJECT_DIR$/04_Tren/04_Tren.iml" />
-      <module fileurl="file://$PROJECT_DIR$/05_ArrayListMagdalenas/05_ArrayListMagdalenas.iml" filepath="$PROJECT_DIR$/05_ArrayListMagdalenas/05_ArrayListMagdalenas.iml" />
-      <module fileurl="file://$PROJECT_DIR$/06_AlmacenMagdalenas/06_AlmacenMagdalenas.iml" filepath="$PROJECT_DIR$/06_AlmacenMagdalenas/06_AlmacenMagdalenas.iml" />
-      <module fileurl="file://$PROJECT_DIR$/07_CroissantInterfaceHerencia/07_CroissantInterfaceHerencia.iml" filepath="$PROJECT_DIR$/07_CroissantInterfaceHerencia/07_CroissantInterfaceHerencia.iml" />
-      <module fileurl="file://$PROJECT_DIR$/08_Superhero/08_Superhero.iml" filepath="$PROJECT_DIR$/08_Superhero/08_Superhero.iml" />
-      <module fileurl="file://$PROJECT_DIR$/09_Warhammer/09_Warhammer.iml" filepath="$PROJECT_DIR$/09_Warhammer/09_Warhammer.iml" />
-      <module fileurl="file://$PROJECT_DIR$/10_Puntillos/10_Puntillos.iml" filepath="$PROJECT_DIR$/10_Puntillos/10_Puntillos.iml" />
-      <module fileurl="file://$PROJECT_DIR$/11_StrangerThings/11_StrangerThings.iml" filepath="$PROJECT_DIR$/11_StrangerThings/11_StrangerThings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EntornosDesarrollo/01_Lavadora/01_Lavadora.iml" filepath="$PROJECT_DIR$/EntornosDesarrollo/01_Lavadora/01_Lavadora.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Programacion/02_Magdalena/02_Magdalena.iml" filepath="$PROJECT_DIR$/Programacion/02_Magdalena/02_Magdalena.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Programacion/03_AlmacenMagdalenas/03_AlmacenMagdalenas.iml" filepath="$PROJECT_DIR$/Programacion/03_AlmacenMagdalenas/03_AlmacenMagdalenas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Programacion/04_Tren/04_Tren.iml" filepath="$PROJECT_DIR$/Programacion/04_Tren/04_Tren.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Programacion/05_ArrayListMagdalenas/05_ArrayListMagdalenas.iml" filepath="$PROJECT_DIR$/Programacion/05_ArrayListMagdalenas/05_ArrayListMagdalenas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Programacion/06_AlmacenMagdalenas/06_AlmacenMagdalenas.iml" filepath="$PROJECT_DIR$/Programacion/06_AlmacenMagdalenas/06_AlmacenMagdalenas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Programacion/07_CroissantInterfaceHerencia/07_CroissantInterfaceHerencia.iml" filepath="$PROJECT_DIR$/Programacion/07_CroissantInterfaceHerencia/07_CroissantInterfaceHerencia.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Programacion/08_Superhero/08_Superhero.iml" filepath="$PROJECT_DIR$/Programacion/08_Superhero/08_Superhero.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Programacion/09_Warhammer/09_Warhammer.iml" filepath="$PROJECT_DIR$/Programacion/09_Warhammer/09_Warhammer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EntornosDesarrollo/10_Puntillos/10_Puntillos.iml" filepath="$PROJECT_DIR$/EntornosDesarrollo/10_Puntillos/10_Puntillos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Programacion/11_StrangerThings/11_StrangerThings.iml" filepath="$PROJECT_DIR$/Programacion/11_StrangerThings/11_StrangerThings.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/POO.iml" filepath="$PROJECT_DIR$/.idea/POO.iml" />
     </modules>
   </component>
