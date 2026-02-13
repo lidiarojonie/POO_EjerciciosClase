@@ -70,10 +70,10 @@ public class Main {
                     miLavadora.programar(duracion);
                     break;
                 case 8:
-                    System.out.println("Introduzca el plan de lavado a usar (ECO, CORTO, ROPA_COLOR, FRIO): ");
+                    /*System.out.println("Introduzca el plan de lavado a usar (ECO, CORTO, ROPA_COLOR, FRIO): ");
                     String planLav = sc.nextLine();
                     miLavadora.planDeLavado(planLav);
-                    break;
+                    break;*/
                 case 9:
                     miLavadora.abrirCajetin();
                     break;
