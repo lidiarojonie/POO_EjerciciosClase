@@ -1,5 +1,4 @@
 public class Main {
-
     static void imprimirMagdalena(String sabor, String topping, String harina, String size){
         System.out.println("Magdalena de: " + sabor + ", " + topping + ", " + harina + ", " + size);
     }
