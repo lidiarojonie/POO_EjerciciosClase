@@ -4,4 +4,6 @@ public interface Fighter {
     boolean isAlive();
     String getName();
     void receiveDamage(int damage);
+    int getDanyo();
+    String getRole();
 }

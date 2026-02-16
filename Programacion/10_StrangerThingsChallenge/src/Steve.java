@@ -3,12 +3,9 @@ public class Steve extends CharacterBase{
     private int helados;
 
     //Constructor
-    public Steve(String name, int age, int hp, int helados) {
-        super(name, age, hp);
+    public Steve(String name, int age, int hp, String idPrimaryKey, String faction, int level, String role, int danyo, int helados) {
+        super(name, age, hp, idPrimaryKey, faction, level, role, danyo);
         this.helados = helados;
-    }
-    public Steve(String name, int age, String idPrimaryKey) {
-        super(name, age, idPrimaryKey);
     }
 
     // Metodos

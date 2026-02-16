@@ -3,18 +3,11 @@ public class Hopper extends CharacterBase{
     private int ammo;
 
     // Constructor
-    public Hopper(String name, int age, int hp, int ammo) {
-        super(name, age, hp);
+    public Hopper(String name, int age, int hp, String idPrimaryKey, String faction, int level, String role, int danyo, int ammo) {
+        super(name, age, hp, idPrimaryKey, faction, level, role, danyo);
         this.ammo = ammo;
     }
-    public Hopper(String name, int age, int hp, int ammo, String idPrimaryKey) {
-        super(name, age, hp,  idPrimaryKey);
-        this.ammo = ammo;
-    }
-    public Hopper(String name, int age, String idPrimaryKey) {
-        super(name, age, idPrimaryKey);
-        this.ammo = ammo;
-    }
+
 
 
     // To String

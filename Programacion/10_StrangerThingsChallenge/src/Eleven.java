@@ -1,22 +1,11 @@
 public class Eleven extends CharacterBase{
     // Atributos
-    private int poderes;
+    private int levelPoderes;
 
     // Constructor
-    public Eleven(String name, int age, int hp, int poderes, int danyo) {
-        super(name, age, hp, danyo);
-        this.poderes = poderes;
-    }
-    public Eleven(String name, int age, int hp, int poderes) {
-        super(name, age, hp);
-        this.poderes = poderes;
-    }
-    public Eleven(String name, int age, int hp, int poderes, int danyo, String idPrimaryKey) {
-        super(name, age, hp, idPrimaryKey);
-        this.poderes = poderes;
-    }
-    public Eleven(String name, int age, String idPrimaryKey) {
-        super(name, age, idPrimaryKey);
+    public Eleven(String name, int age, int hp, String idPrimaryKey, String faction, int level, String role, int danyo, int levelPoderes) {
+        super(name, age, hp, idPrimaryKey, faction, level, role, danyo);
+        this.levelPoderes = levelPoderes;
     }
 
     // Metodos
@@ -25,11 +14,11 @@ public class Eleven extends CharacterBase{
     }
 
     // Getter and Setter
-    public int getPoderes() {
-        return poderes;
+    public int getLevelPoderes() {
+        return levelPoderes;
     }
-    public void setPoderes(int poderes) {
-        this.poderes = poderes;
+    public void setLevelPoderes(int levelPoderes) {
+        this.levelPoderes = levelPoderes;
     }
 
     // To String
@@ -37,7 +26,7 @@ public class Eleven extends CharacterBase{
     public String toString() {
         return super.toString() +
                 "Eleven{" +
-                "poderes=" + poderes +
+                "poderes=" + levelPoderes +
                 "} ";
     }
 

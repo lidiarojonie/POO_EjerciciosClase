@@ -3,16 +3,9 @@ public class Demogorgon extends CharacterBase{
     private int dientes;
 
     // Constructor
-    public Demogorgon(String name, int age, int hp, int dientes) {
-        super(name, age, hp);
+    public Demogorgon(String name, int age, int hp, String idPrimaryKey, String faction, int level, String role, int danyo, int dientes) {
+        super(name, age, hp, idPrimaryKey, faction, level, role, danyo);
         this.dientes = dientes;
-    }
-    public Demogorgon(String name, int age, int hp, int dientes, String idPrimaryKey) {
-        super(name, age, hp, idPrimaryKey);
-        this.dientes = dientes;
-    }
-    public Demogorgon(String name, int age, String idPrimaryKey) {
-        super(name, age, idPrimaryKey);
     }
 
     // Metodos
