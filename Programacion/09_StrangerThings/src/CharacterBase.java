@@ -5,12 +5,31 @@ public abstract class CharacterBase implements Fighter {
     private String name;
     private int age;
     private int hp;
+    private int danyo;
+    private String idPrimaryKey;
 
     // Constructor
     public CharacterBase(String name, int age, int hp) {
         this.name = name;
         this.age = age;
         this.hp = hp;
+    }
+    public CharacterBase(String name, int age, int hp, int danyo) {
+        this.name = name;
+        this.age = age;
+        this.hp = hp;
+        this.danyo = danyo;
+    }
+    public CharacterBase(String name, int age, int hp, String idPrimaryKey) {
+        this.name = name;
+        this.age = age;
+        this.hp = hp;
+        this.idPrimaryKey = idPrimaryKey;
+    }
+    public CharacterBase(String name, int age, String idPrimaryKey) {
+        this.name = name;
+        this.age = age;
+        this.idPrimaryKey = idPrimaryKey;
     }
 
     // Metodos
@@ -47,6 +66,20 @@ public abstract class CharacterBase implements Fighter {
     }
     public void setHp(int hp) {
         this.hp = hp;
+    }
+    public int getDanyo() {
+        return danyo;
+    }
+    public void setDanyo(int danyo) {
+        this.danyo = danyo;
+    }
+
+    public String getIdPrimaryKey() {
+        return idPrimaryKey;
+    }
+
+    public void setIdPrimaryKey(String idPrimaryKey) {
+        this.idPrimaryKey = idPrimaryKey;
     }
 
     // To String

@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.HashMap;
 
-public class Main{
+public class Test {
     public static void main(String[] args){
         // Tarea 1
         System.out.println("\nTarea 1:");
