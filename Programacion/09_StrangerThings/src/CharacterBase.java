@@ -1,3 +1,5 @@
+import java.util.Objects;
+
 public abstract class CharacterBase implements Fighter {
     // Atributos
     private String name;
@@ -55,5 +57,16 @@ public abstract class CharacterBase implements Fighter {
                 ", age=" + age +
                 ", hp=" + hp +
                 '}';
+    }
+
+    // Equals
+    @Override
+    public boolean equals(Object o) {
+        if (!(o instanceof CharacterBase that)) return false;
+        return age == that.age && Objects.equals(name, that.name);
+    }
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, age);
     }
 }

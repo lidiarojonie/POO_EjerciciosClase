@@ -74,15 +74,26 @@ public class Main{
 
         // Tarea 9
         System.out.println("\nTarea 9:");
-
+        Hopper h1 = new Hopper("Hopper", 42, 60, 90);
+        Hopper h2 = new Hopper("Hopper", 42, 10, 20);
+        System.out.println("Equals=" + h1.equals(h2));
 
         // Tarea 10
         System.out.println("\nTarea 10:");
+        Eleven el = new Eleven("Eleven", 14, 40, 80);
+        Steve s = new Steve("Steve", 17, 45, 60);
+        Hopper ho = new Hopper("Hopper", 42, 60, 90);
+        Demogorgon boss = new Demogorgon("Demogorgon", 0, 70, 70);
+
         for(Fighter c : party){
             if(c instanceof Demogorgon){
+                Demogorgon de = (Demogorgon)f;
 
             } else if (c instanceof Eleven){
-            } else if(c instanceof Steve){}
+                Eleven ele = (Eleven)el;
+            } else if(c instanceof Steve){
+                Steve ste = (Steve)s;
+            }
         }
     }
 }
