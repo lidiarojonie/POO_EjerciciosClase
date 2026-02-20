@@ -8,7 +8,7 @@ public abstract class CharacterBase implements Fighter, CombatAction {
     private UUID idPrimaryKey;
     private Faction faction;
     private int level;
-    private CharacterBase next;
+    private CharacterBase next; // Recursividad
 
     // Constructor
     public CharacterBase(String name, int age, int hp, UUID idPrimaryKey, Faction faction, int level) {
