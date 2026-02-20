@@ -27,7 +27,6 @@ public class Main {
 
         System.out.println("\n=== SPECIAL SKILLS (NO instanceof) ===");
         for (Fighter fighter : party) {
-
             fighter.battleCry();
 
             fighter.specialSkill(); // NUEVO -> polimorfismo real, cero casts, cero instanceof
