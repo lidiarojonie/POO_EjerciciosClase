@@ -8,6 +8,7 @@ public abstract class CharacterBase implements Fighter, CombatAction {
     private UUID idPrimaryKey;
     private Faction faction;
     private int level;
+    private CharacterBase next;
 
     // Constructor
     public CharacterBase(String name, int age, int hp, UUID idPrimaryKey, Faction faction, int level) {
@@ -17,6 +18,7 @@ public abstract class CharacterBase implements Fighter, CombatAction {
         this.idPrimaryKey = idPrimaryKey;
         this.faction = faction;
         this.level = level;
+        this.next = null;
     }
 
     // @Override
@@ -73,4 +75,12 @@ public abstract class CharacterBase implements Fighter, CombatAction {
     public int getHp() { return hp; }
     public Faction getFaction() { return faction; }
     public int getLevel() { return level; }
+
+    // Getter and Setter
+    public CharacterBase getNext() {
+        return next;
+    }
+    public void setNext(CharacterBase next) {
+        this.next = next;
+    }
 }
