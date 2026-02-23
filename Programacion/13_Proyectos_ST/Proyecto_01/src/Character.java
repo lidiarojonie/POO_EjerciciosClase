@@ -1,12 +1,15 @@
 public abstract class Character {
+    // Atributos
     protected String name;
     protected int hp;
 
+    // Constructor
     public Character(String name, int hp) {
         this.name = name;
         this.hp = hp;
     }
 
+    // Getters
     public String getName() { return name; }
     public int getHp() { return hp; }
 
