@@ -64,5 +64,35 @@ public class Main {
         }
 
         System.out.println("Puntos finales => " + points);
+
+        System.out.println("=== PROYECTO 2: FACTORY + SINGLETON ===");
+
+        // 1) Crear personajes con FACTORY (sin new fuera)
+        ArrayList<Character> party2 = new ArrayList<>();
+        party2.add(CharacterFactory.create("Eleven", "Eleven"));
+        party2.add(CharacterFactory.create("Dustin", "Dustin"));
+        party2.add(CharacterFactory.create("Demogorgon", "Demogorgon"));
+
+        // 2) Obtener el marcador único (SINGLETON)
+        ScoreBoardSingleton score = ScoreBoardSingleton.getInstance();
+
+        // 3) Registrar a todos en el marcador
+        for (Character c : party2) {
+            score.register(c.getName());
+        }
+
+        // 4) Ejecutar una acción y sumar puntos
+        for (Character c : party2) {
+            c.action("Vecna");
+            score.addPoints(c.getName(), c.pointsPerAction());
+        }
+
+        // 5) Mostrar puntos finales (una única fuente de verdad)
+        score.print();
+
+        // 6) Prueba didáctica: pedir el singleton otra vez
+        // 🔴 Esto NO crea otro marcador: es el mismo
+        ScoreBoardSingleton score2 = ScoreBoardSingleton.getInstance();
+        System.out.println("¿Mismo objeto? => " + (score == score2));
     }
 }
