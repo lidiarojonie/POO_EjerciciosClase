@@ -16,6 +16,21 @@ public class Nieto extends Persona{
     }
 
     // Metodos
+    public void addAbuelo(Abuelo abuelo){
+        if(abuelo.getRelacion() == Relacion.PATERNO){
+            if(abuelo.getGenero() == Genero.HOMBRE){
+                abuelos[0] = abuelo;
+            }else{
+                abuelos[1] = abuelo;
+            }
+        }else{
+            if(abuelo.getGenero() == Genero.HOMBRE){
+                abuelos[2] = abuelo;
+            }else{
+                abuelos[3] = abuelo;
+            }
+        }
+    }
 
     // Getter and Setter
     public int getId_nieto() {

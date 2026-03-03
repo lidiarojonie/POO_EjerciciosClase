@@ -6,7 +6,7 @@ public class Abuelo extends Persona {
     private int id_abuelo;
     private String DNI;
     private String nombre_carinyoso;
-    private Relacion relacion;
+    protected Relacion relacion;
     private int pension;
     private ArrayList<Nieto> nietos= new ArrayList<>();
 
