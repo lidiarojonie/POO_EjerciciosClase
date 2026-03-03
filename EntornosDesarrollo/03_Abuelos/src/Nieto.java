@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Objects;
 
 public class Nieto extends Persona{
@@ -20,16 +21,18 @@ public class Nieto extends Persona{
         if(abuelo.getRelacion() == Relacion.PATERNO){
             if(abuelo.getGenero() == Genero.HOMBRE && abuelos[0] == null){
                 abuelos[0] = abuelo;
-            }else if (abuelos[1] == null){
+            }else if (abuelo.getGenero() == Genero.MUJER && abuelos[1] == null){
                 abuelos[1] = abuelo;
+            }else{
+                System.out.println("No hay hueco para más abuelos paternos");
             }
-        }else{
+        }else if(abuelo.getRelacion() == Relacion.MATERNO){
             if(abuelo.getGenero() == Genero.HOMBRE && abuelos[2] == null){
                 abuelos[2] = abuelo;
-            }else if (abuelos[3] == null){
+            }else if (abuelo.getGenero() == Genero.MUJER && abuelos[3] == null){
                 abuelos[3] = abuelo;
             }else{
-                System.out.println("No hay hueco para más abuelos");
+                System.out.println("No hay hueco para más abuelos maternos");
             }
         }
     }
@@ -64,25 +67,34 @@ public class Nieto extends Persona{
     public void setAficion(String aficion) {
         this.aficion = aficion;
     }
+    public Abuelo[] getAbuelos() {
+        return abuelos;
+    }
+    public void setAbuelos(Abuelo[] abuelos) {
+        this.abuelos = abuelos;
+    }
 
     // To String
     @Override
     public String toString() {
-        return "Nieto{" +
+        return super.toString() +
+                "Nieto{" +
                 "id_nieto=" + id_nieto +
                 ", paga_semanal=" + paga_semanal +
                 ", aficion='" + aficion + '\'' +
-                "} " + super.toString();
+                ", abuelos=" + Arrays.toString(abuelos) +
+                '}';
     }
 
     // Equals
     @Override
     public boolean equals(Object o) {
         if (!(o instanceof Nieto nieto)) return false;
-        return id_nieto == nieto.id_nieto && paga_semanal == nieto.paga_semanal && Objects.equals(aficion, nieto.aficion);
+        if (!super.equals(o)) return false;
+        return id_nieto == nieto.id_nieto && paga_semanal == nieto.paga_semanal && Objects.equals(aficion, nieto.aficion) && Objects.deepEquals(abuelos, nieto.abuelos);
     }
     @Override
     public int hashCode() {
-        return Objects.hash(id_nieto, paga_semanal, aficion);
+        return Objects.hash(super.hashCode(), id_nieto, paga_semanal, aficion, Arrays.hashCode(abuelos));
     }
 }

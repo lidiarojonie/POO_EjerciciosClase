@@ -59,17 +59,25 @@ public class Abuelo extends Persona {
     public void setPension(int pension) {
         this.pension = pension;
     }
+    public ArrayList<Nieto> getNietos() {
+        return nietos;
+    }
+    public void setNietos(ArrayList<Nieto> nietos) {
+        this.nietos = nietos;
+    }
 
     // To String
     @Override
     public String toString() {
-        return "Abuelo{" +
+        return super.toString() +
+                "Abuelo{" +
                 "id_abuelo=" + id_abuelo +
                 ", DNI='" + DNI + '\'' +
                 ", nombre_carinyoso='" + nombre_carinyoso + '\'' +
                 ", relacion=" + relacion +
                 ", pension=" + pension +
-                "} " + super.toString();
+                ", nietos=" + nietos +
+                '}';
     }
 
     // Equals
@@ -77,10 +85,11 @@ public class Abuelo extends Persona {
     public boolean equals(Object o) {
         if (!(o instanceof Abuelo abuelo)) return false;
         if (!super.equals(o)) return false;
-        return id_abuelo == abuelo.id_abuelo && pension == abuelo.pension && Objects.equals(DNI, abuelo.DNI) && Objects.equals(nombre_carinyoso, abuelo.nombre_carinyoso) && relacion == abuelo.relacion;
+        return id_abuelo == abuelo.id_abuelo && pension == abuelo.pension && Objects.equals(DNI, abuelo.DNI) && Objects.equals(nombre_carinyoso, abuelo.nombre_carinyoso) && relacion == abuelo.relacion && Objects.equals(nietos, abuelo.nietos);
     }
+
     @Override
     public int hashCode() {
-        return Objects.hash(super.hashCode(), id_abuelo, DNI, nombre_carinyoso, relacion, pension);
+        return Objects.hash(super.hashCode(), id_abuelo, DNI, nombre_carinyoso, relacion, pension, nietos);
     }
 }

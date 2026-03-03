@@ -54,36 +54,6 @@ public class Main{
         Francisco.addnietos(Martina);
         Francisco.addnietos(Hugo);
 
-        //Nieto-Abuelo
-        Lucas.addAbuelo(Carlos);
-        Lucas.addAbuelo(Maria);
-        Lucas.addAbuelo(Pedro);
-        Sofia.addAbuelo(Carlos);
-        Sofia.addAbuelo(Maria);
-        Sofia.addAbuelo(Pedro);
-
-        Mateo.addAbuelo(Carmen);
-        Mateo.addAbuelo(Antonio);
-        Mateo.addAbuelo(Josefa);
-        Mateo.addAbuelo(Francisco);
-        Valeria.addAbuelo(Carmen);
-        Valeria.addAbuelo(Antonio);
-        Valeria.addAbuelo(Josefa);
-        Valeria.addAbuelo(Francisco);
-        Leo.addAbuelo(Carmen);
-        Leo.addAbuelo(Antonio);
-        Leo.addAbuelo(Josefa);
-        Leo.addAbuelo(Francisco);
-        Martina.addAbuelo(Carmen);
-        Martina.addAbuelo(Antonio);
-        Martina.addAbuelo(Josefa);
-        Martina.addAbuelo(Francisco);
-        Hugo.addAbuelo(Carmen);
-        Hugo.addAbuelo(Antonio);
-        Hugo.addAbuelo(Josefa);
-        Hugo.addAbuelo(Francisco);
-
-
         // Probar si funcionan los nietos ideales y el calculo de pagas
         NietoIdeal lucasIdeal = new NietoIdeal("Lucas", "García Sanz", Genero.HOMBRE, "12/04/2015", 700101010, "Calle Mayor 1", 1, 10, "Fútbol");
         lucasIdeal.addHabilidad("Cariñoso");
