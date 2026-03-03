@@ -22,7 +22,10 @@ public class Abuelo extends Persona {
 
     // Metodos
     public void addnietos(Nieto nieto){
-        nietos.add(nieto);
+        if (!this.nietos.contains(nieto)) {
+            this.nietos.add(nieto);
+            nieto.addAbuelo(this); // El abuelo "le dice" al nieto que lo añada
+        }
     }
 
     // Getter and Setter

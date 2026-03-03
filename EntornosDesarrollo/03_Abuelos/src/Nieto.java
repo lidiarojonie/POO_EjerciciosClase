@@ -34,6 +34,17 @@ public class Nieto extends Persona{
         }
     }
 
+    public int calculoPaga() {
+        int contadorAbuelos = 0;
+        for (Abuelo a : abuelos) {
+            if (a != null) {
+                contadorAbuelos++;
+            }
+        }
+
+        return this.paga_semanal * contadorAbuelos;
+    }
+
     // Getter and Setter
     public int getId_nieto() {
         return id_nieto;
