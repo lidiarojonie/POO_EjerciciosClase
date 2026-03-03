@@ -18,16 +18,18 @@ public class Nieto extends Persona{
     // Metodos
     public void addAbuelo(Abuelo abuelo){
         if(abuelo.getRelacion() == Relacion.PATERNO){
-            if(abuelo.getGenero() == Genero.HOMBRE){
+            if(abuelo.getGenero() == Genero.HOMBRE && abuelos[0] == null){
                 abuelos[0] = abuelo;
-            }else{
+            }else if (abuelos[1] == null){
                 abuelos[1] = abuelo;
             }
         }else{
-            if(abuelo.getGenero() == Genero.HOMBRE){
+            if(abuelo.getGenero() == Genero.HOMBRE && abuelos[2] == null){
                 abuelos[2] = abuelo;
-            }else{
+            }else if (abuelos[3] == null){
                 abuelos[3] = abuelo;
+            }else{
+                System.out.println("No hay hueco para más abuelos");
             }
         }
     }
