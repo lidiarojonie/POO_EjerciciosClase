@@ -2,7 +2,7 @@ public class Main{
     public static void main(String[] args) {
         // Crear abuelos
         //3 abuelos para 2 nietos
-        Abuelo Carlos = new Abuelo("Carlos", "Garcia Perez", Genero.HOMBRE, "15/02/1935", 478596547, "Calle primera, 104 5ºG", 01, "12345678Z", "Abi", Relacion.PATERNO, 700);
+        Abuelo Carlos = new Abuelo("Carlos", "Garcia Perez", Genero.HOMBRE, "15/02/1935", 478596547, "Calle primera, 104 5ºG", 1, "12345678Z", "Abi", Relacion.PATERNO, 700);
         Abuelo Maria = new Abuelo("María", "Sánchez Ruiz", Genero.HOMBRE, "22/08/1952", 611222333, "Av. Constitución 5", 2, "87654321B", "Yaya Mari", Relacion.MATERNO, 1100);
         Abuelo Pedro = new Abuelo("Pedro", "Gómez Marín", Genero.HOMBRE, "10/01/1948", 622333444, "Plaza España 10", 3, "11223344C", "Abu Pedro", Relacion.PATERNO, 1500);
 
