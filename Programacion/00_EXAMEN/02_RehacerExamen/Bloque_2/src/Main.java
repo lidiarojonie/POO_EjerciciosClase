@@ -1,13 +1,24 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-void main() {
-    //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-    // to see how IntelliJ IDEA suggests fixing it.
-    IO.println(String.format("Hello and welcome!"));
+public class Main  {
+    public static void main(String[] args) {
+        // Crear personajes
+        Personaje p1 = new Personaje("Wednesday");
+        Personaje p2 = new Personaje("Enid");
+        Personaje p3 = new Personaje("Xavier");
+        Personaje p4 = new Personaje("Tyler");
 
-    for (int i = 1; i <= 5; i++) {
-        //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-        // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-        IO.println("i = " + i);
+        // Enlazar con el siguiente
+        p1.siguiente = p2;
+        p2.siguiente = p3;
+        p3.siguiente = p4;
+
+        // Asignar el primero y el actual
+        Personaje primero = p1;
+        Personaje actual = p1;
+
+        // Bucle para ver a los personajes
+        while(actual != null){
+            System.out.println(actual.nombre);
+            actual = actual.siguiente;
+        }
     }
 }
