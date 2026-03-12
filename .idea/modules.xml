@@ -4,10 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/EntornosDesarrollo/01_Lavadora/01_Lavadora.iml" filepath="$PROJECT_DIR$/EntornosDesarrollo/01_Lavadora/01_Lavadora.iml" />
       <module fileurl="file://$PROJECT_DIR$/Programacion/01_Magdalena/01_Magdalena.iml" filepath="$PROJECT_DIR$/Programacion/01_Magdalena/01_Magdalena.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Programacion/00_CosasPalExamen/01_Singleton/01_Singleton.iml" filepath="$PROJECT_DIR$/Programacion/00_CosasPalExamen/01_Singleton/01_Singleton.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Programacion/00_CosasPalExamen/01_Singleton_Configuracion/01_Singleton_Configuracion/01_Singleton_Configuracion.iml" filepath="$PROJECT_DIR$/Programacion/00_CosasPalExamen/01_Singleton_Configuracion/01_Singleton_Configuracion/01_Singleton_Configuracion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Programacion/00_EXAMEN/01_CosasPaRepasar/01_Singleton/01_Singleton.iml" filepath="$PROJECT_DIR$/Programacion/00_EXAMEN/01_CosasPaRepasar/01_Singleton/01_Singleton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Programacion/00_EXAMEN/01_Singleton_Configuracion/01_Singleton_Configuracion/01_Singleton_Configuracion.iml" filepath="$PROJECT_DIR$/Programacion/00_EXAMEN/01_Singleton_Configuracion/01_Singleton_Configuracion/01_Singleton_Configuracion.iml" />
       <module fileurl="file://$PROJECT_DIR$/Programacion/02_AlmacenMagdalenas/02_AlmacenMagdalenas.iml" filepath="$PROJECT_DIR$/Programacion/02_AlmacenMagdalenas/02_AlmacenMagdalenas.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Programacion/00_CosasPalExamen/02_Factory/02_Factory.iml" filepath="$PROJECT_DIR$/Programacion/00_CosasPalExamen/02_Factory/02_Factory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Programacion/00_EXAMEN/01_CosasPaRepasar/02_Factory/02_Factory.iml" filepath="$PROJECT_DIR$/Programacion/00_EXAMEN/01_CosasPaRepasar/02_Factory/02_Factory.iml" />
       <module fileurl="file://$PROJECT_DIR$/EntornosDesarrollo/02_Puntillos/02_Puntillos.iml" filepath="$PROJECT_DIR$/EntornosDesarrollo/02_Puntillos/02_Puntillos.iml" />
       <module fileurl="file://$PROJECT_DIR$/EntornosDesarrollo/03_Abuelos/03_Abuelos.iml" filepath="$PROJECT_DIR$/EntornosDesarrollo/03_Abuelos/03_Abuelos.iml" />
       <module fileurl="file://$PROJECT_DIR$/Programacion/03_Tren/03_Tren.iml" filepath="$PROJECT_DIR$/Programacion/03_Tren/03_Tren.iml" />
@@ -22,6 +22,9 @@
       <module fileurl="file://$PROJECT_DIR$/Programacion/12_Challenge_2/12_Challenge_2.iml" filepath="$PROJECT_DIR$/Programacion/12_Challenge_2/12_Challenge_2.iml" />
       <module fileurl="file://$PROJECT_DIR$/EntornosDesarrollo/00_EXAMEN/2_Ev/ExamenEntornos/ExamenEntornos.iml" filepath="$PROJECT_DIR$/EntornosDesarrollo/00_EXAMEN/2_Ev/ExamenEntornos/ExamenEntornos.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/POO.iml" filepath="$PROJECT_DIR$/.idea/POO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Programacion/00_EXAMEN/02_RehacerExamen/Parte1/Parte1.iml" filepath="$PROJECT_DIR$/Programacion/00_EXAMEN/02_RehacerExamen/Parte1/Parte1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Programacion/00_EXAMEN/02_RehacerExamen/Parte_1/Parte_1.iml" filepath="$PROJECT_DIR$/Programacion/00_EXAMEN/02_RehacerExamen/Parte_1/Parte_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Programacion/00_EXAMEN/02_RehacerExamen/Parte_2/Parte_2.iml" filepath="$PROJECT_DIR$/Programacion/00_EXAMEN/02_RehacerExamen/Parte_2/Parte_2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Programacion/13_Proyectos_ST/Proyecto_01/Proyecto_01.iml" filepath="$PROJECT_DIR$/Programacion/13_Proyectos_ST/Proyecto_01/Proyecto_01.iml" />
       <module fileurl="file://$PROJECT_DIR$/Programacion/13_Proyectos_ST/Proyecto_03_SOLID/Proyecto_03_SOLID.iml" filepath="$PROJECT_DIR$/Programacion/13_Proyectos_ST/Proyecto_03_SOLID/Proyecto_03_SOLID.iml" />
       <module fileurl="file://$PROJECT_DIR$/Programacion/13_Proyectos_ST/Proyecto_04/Proyecto_04.iml" filepath="$PROJECT_DIR$/Programacion/13_Proyectos_ST/Proyecto_04/Proyecto_04.iml" />
