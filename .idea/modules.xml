@@ -4,10 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/EntornosDesarrollo/01_Lavadora/01_Lavadora.iml" filepath="$PROJECT_DIR$/EntornosDesarrollo/01_Lavadora/01_Lavadora.iml" />
       <module fileurl="file://$PROJECT_DIR$/Programacion/01_Magdalena/01_Magdalena.iml" filepath="$PROJECT_DIR$/Programacion/01_Magdalena/01_Magdalena.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Programacion/00_CosasPalExamen/01_Singleton/01_Singleton.iml" filepath="$PROJECT_DIR$/Programacion/00_CosasPalExamen/01_Singleton/01_Singleton.iml" />
       <module fileurl="file://$PROJECT_DIR$/Programacion/00_CosasPalExamen/01_Singleton_Configuracion/01_Singleton_Configuracion/01_Singleton_Configuracion.iml" filepath="$PROJECT_DIR$/Programacion/00_CosasPalExamen/01_Singleton_Configuracion/01_Singleton_Configuracion/01_Singleton_Configuracion.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Programacion/00_CosasPalExamen/01_Singleton_Configuracion_/01_Singleton_Configuracion_.iml" filepath="$PROJECT_DIR$/Programacion/00_CosasPalExamen/01_Singleton_Configuracion_/01_Singleton_Configuracion_.iml" />
       <module fileurl="file://$PROJECT_DIR$/Programacion/02_AlmacenMagdalenas/02_AlmacenMagdalenas.iml" filepath="$PROJECT_DIR$/Programacion/02_AlmacenMagdalenas/02_AlmacenMagdalenas.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Programacion/00_CosasPalExamen/02_Factory_Animales/02_Factory_Animales.iml" filepath="$PROJECT_DIR$/Programacion/00_CosasPalExamen/02_Factory_Animales/02_Factory_Animales.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Programacion/00_CosasPalExamen/02_Factory/02_Factory.iml" filepath="$PROJECT_DIR$/Programacion/00_CosasPalExamen/02_Factory/02_Factory.iml" />
       <module fileurl="file://$PROJECT_DIR$/EntornosDesarrollo/02_Puntillos/02_Puntillos.iml" filepath="$PROJECT_DIR$/EntornosDesarrollo/02_Puntillos/02_Puntillos.iml" />
       <module fileurl="file://$PROJECT_DIR$/EntornosDesarrollo/03_Abuelos/03_Abuelos.iml" filepath="$PROJECT_DIR$/EntornosDesarrollo/03_Abuelos/03_Abuelos.iml" />
       <module fileurl="file://$PROJECT_DIR$/Programacion/03_Tren/03_Tren.iml" filepath="$PROJECT_DIR$/Programacion/03_Tren/03_Tren.iml" />
